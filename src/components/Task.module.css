@@ -1,0 +1,42 @@
+.iten {
+    width: 100%;
+    height: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background-color: #262626;
+    position: relative;
+}
+
+.iten:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.iten .button {
+    background-color: transparent;
+    cursor: pointer; 
+}
+
+.iten .button .check {
+    width: 2rem;
+}
+
+.iten .button .isFalse {
+    border: .2rem solid #4EA8DE;
+    border-radius: 100%;
+    padding: .8rem;
+}
+.iten .description {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.8rem;
+    color: #F2F2F2;
+}
+
+.iten .trash {
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 3rem;
+}
